@@ -112,7 +112,7 @@ padding-bottom: 60px;
 
 .title-none {
   max-height: 0px;
-  color: transparent;
+  display: none;
   
 }
 
@@ -207,12 +207,30 @@ padding-bottom: 60px;
     display: flex;
     gap: 30px;}
    
-       
+    .section-business{
+    background-color:#F5F5F5;
+     width: 1600px;
+     margin: 0 auto;
+    } 
+    
+    
+    .advantage{
+    background-color:#F5F5F5;
+    width: 1600px;
+    margin: 0 auto;
+}
+
     .benefits-list-item{
         width: 270px;
         flex-wrap: wrap;
         text-align: justify;
     }
+.projects{
+  background-color:#F5F5F5;
+   width: 1600px;
+    margin: 0 auto;
+}  
+
 
     .text{
     justify-content: space-between;
