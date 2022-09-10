@@ -262,6 +262,7 @@ block-size: cover;
     padding-bottom: 87px;
 }  
 
+.img{display: block;}
 
     .text{
     justify-content: space-between;
@@ -283,7 +284,7 @@ block-size: cover;
     }
     
     .text-team{
-     padding-top:10px;
+     
     }
    .list-team{display: flex;
     gap:30px;
@@ -510,9 +511,18 @@ padding-bottom:20px;
 padding-top:20px;
 padding-left:24px ;
 padding-right: 24px;
-
+border-right: 1px solid #EEEEEE;
+border-left:1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
 
 }
+
+.image{
+display: block;
+border: none;
+}
+
+
 .team{padding-top: 94px;}
 
 .text-projects{
@@ -521,10 +531,8 @@ margin: bottom 0;;
 }
 .projects-list{
   max-width: 370px;
-  display: block;
-  border-right: 1px solid #EEEEEE;
-  border-left:1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
+ 
+  
 }
 
 .list-filters{
@@ -540,9 +548,6 @@ margin: bottom 0;;
 /*----------------------------------------------------------FOOTER------------------------------------------------------*/
 .footer{    
     max-width: 1600px;
-   
-    left: 0px;
-    top: 2094px;
     margin: 0 auto;
     background: var(--primary-background-color);
 }
